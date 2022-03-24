@@ -1,0 +1,91 @@
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 102%;
+            color: black;
+            line-height: 1,5;
+        }
+
+        
+        .corpo{
+            background-image: url(img/img01.jpeg) ;
+            width: 720px;
+            padding: 20px;
+            margin: 20px auto 0 auto;
+            box-shadow: 0px 6px 10px;
+            border-radius: 5px;
+        }
+        
+        .row{
+            padding: 5px;
+        }
+        
+        .buttons{
+            text-align: center;
+            
+        }
+        
+        fieldset{
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-color: black;
+            box-shadow: 2px 2px 2px #0000;
+        }
+        
+        .legend{
+            font-size: 10px;
+            font-weight: bold;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        table{
+            border: solid black 1px;
+        }
+
+
+        th {
+         background-color:rgb(252, 245, 245);
+         
+        }
+
+        caption {
+        font-size:x-large;
+        }
+
+        colgroup {
+        background:rgb(191, 216, 100);
+        }
+
+        .coluna1 {
+        background:rgb(210, 224, 193);
+        
+        }
+        
+        .coluna2  {
+        background:rgb(210, 224, 193);
+        }
+
+        .coluna3  {
+        background:rgb(210, 224, 193);
+        } 
+
+        td{
+            text-align: center;
+            border: solid black 1px;
+        }
+        th{
+            text-align: center;
+            border: solid black 1px;
+            
+        }
+
+
+        
+
+
+
+      

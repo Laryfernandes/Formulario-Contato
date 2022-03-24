@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informações de Contato</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+
+
+    <div class="corpo"><form action="#">
+
+       <div class="title"> <h5><b>Formulario para contato:</b></h5></div>
+
+        <br>
+        
+        <fieldset>
+    
+        <legend><b>Dados Pessoais</b></legend>
+        <br>
+
+        <div class="row">
+            <label for="nome">Nome: </label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+        </div>
+
+        <div class="row">
+            <label for="sobrenome">Sobrenome: </label>
+            <input type="text" id="sobrenome" name="sobrenome" placeholder="Digite seu sobrenome" required>
+    
+        </div>
+
+        <div class="row">
+            <label for="email">E-mail: </label>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+        </div>
+
+        <div class="row">
+            <label for="dtnasc">Data de Nascimento: </label>
+            <input type="date" id="dtnasc" name="dtnasc" required>
+        </div>
+
+        <div class="row">
+
+            <label for="idade">Idade: </label>
+            <input type="number" id="idade" name="idade" placeholder="Idade" required max="100" min="18">
+        </div>
+
+        <div class="row">
+            <p><b>Sexo:</b></p>
+            <input type="radio" value="Feminino" id="Feminino" name="sexo" >
+            <label for="Feminino">Feminino</label>
+            <input type="radio" value="Masculino" id="Masculino" name="sexo" >
+            <label for="Masculino">Masculino</label>
+
+        </div>
+
+    </fieldset>
+
+    <fieldset>
+        <legend><b>Motivo do Contato</b></legend>
+        <br>
+        <div class="row">
+            <p><b>Selecione o motivo do seu contato: </b></p>
+            <br>
+        </div>
+        <div class="row">
+            <input type="checkbox" id="MetodologiaÁgil" name="Metodologia Ágil">
+            <label for="MetodologiaÁgil">Metodologia Ágil</label>
+            <input type="checkbox" id="ConteúdoProgramático" name="Conteúdo Programatico">
+            <label for="ConteúdoProgramático">Conteúdo Programático</label>
+            <input type="checkbox" id="Dúvidas" name="Dúvidas">
+            <label for="Dúvidas">Dúvidas</label>
+            
+        </div>
+
+        <div class="row">
+            <br>
+            <label for="mensagem"><b>Escreva sua dúvida ou mensagem que deseja:</b> </label>
+        </div>
+        <div class="row">
+            <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+        </div>
+        
+        <div class="row">
+            <br>
+            <p><b>Encaminhe conteúdos e arquivos para complementação do site</b></p>
+            <br>
+
+            <input type="file">
+        </div>
+
+        <br>
+
+        <div class="table">
+
+            <p><b>Deixe sua avaliação do site abaixo;</b></p>
+            <br>
+            
+            <table>
+                <colgroup>
+                <col  class="coluna1"/>
+                <col class="coluna2"/>
+                <col class="coluna3"/>
+                </colgroup>
+                <tr>
+                <th>Ótimo</th>
+                <th>Bom</th>
+                <th>Ruim</th>
+                </tr>
+                <tr>
+                <td>10-8</td>
+                <td>7-5</td>
+                <td>4-0</td>
+                </tr>
+                </table> 
+
+            </div>
+
+                <div class="row">
+
+                    <label for="nota">Nota: </label>
+                    <input type="number" id="nota" name="nota" placeholder="nota" required max="10" min="0">
+                </div>
+
+
+   </fieldset>
+
+   <div class="buttons">
+       <input type="submit">
+       <input type="reset" value="Limpar">
+     
+   </div>
+
+</form>
+
+</div>
+    
+
+    
+
+
+    
+</body>
+</html>
